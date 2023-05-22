@@ -12,7 +12,7 @@ class EvenHelperTest {
         EvenHelper evenHelper = new EvenHelper();
 
         for (int n : numbers) {
-            boolean expectedResult = n % 2 == 0;
+            boolean expectedResult = n % 2 == 1;
             assertEquals(expectedResult, evenHelper.isEven(n));
         }
     }
